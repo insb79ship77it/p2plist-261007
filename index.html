@@ -224,13 +224,13 @@ fetch('footer.html')
   .then(data => { document.getElementById('footer-container').innerHTML = data; });
 
 const sites = [
-  ["꿀파일", "10,000MB 무료쿠폰", "SNS·네이버·카카오·구글 연동", "인증 이벤트", "[https://www.google.com/search?q=1](https://www.google.com/search?q=1)"],
-  ["지니파일", "10,000MB 무료쿠폰", "SNS 연동 · 결제할인", "출퇴근시간 무료", "[https://www.google.com/search?q=2](https://www.google.com/search?q=2)"],
-  ["밤파일", "10,000MB 무료쿠폰", "누구나 +2,000BP", "이벤트참여 +BP제공", "[https://www.google.com/search?q=3](https://www.google.com/search?q=3)"],
-  ["스마트파일", "10,000MB 무료쿠폰", "초간단 가입!", "24시간 무료!", "[https://www.google.com/search?q=4](https://www.google.com/search?q=4)"],
-  ["파일이즈", "10,000MB 무료쿠폰", "아이디+비번 가입!", "출근시간 모바일무료!!", "[https://www.google.com/search?q=5](https://www.google.com/search?q=5)"],
-  ["파일샛", "10,000MB 무료쿠폰", "SNS(카톡,구글) 초간단 가입!", "이벤트 UP!", "[https://www.google.com/search?q=6](https://www.google.com/search?q=6)"],
-  ["파일몽", "10,000MB 무료쿠폰", "주민번호 NO!", "SNS, Email 간편가입", "[https://www.google.com/search?q=7](https://www.google.com/search?q=7)"]
+  ["꿀파일", "10,000MB 무료쿠폰", "SNS·네이버·카카오·구글 연동", "인증 이벤트", "https://www.google.com/search?q=1"],
+  ["지니파일", "10,000MB 무료쿠폰", "SNS 연동 · 결제할인", "출퇴근시간 무료", "https://www.google.com/search?q=2"],
+  ["밤파일", "10,000MB 무료쿠폰", "누구나 +2,000BP", "이벤트참여 +BP제공", "https://www.google.com/search?q=3"],
+  ["스마트파일", "10,000MB 무료쿠폰", "초간단 가입!", "24시간 무료!", "https://www.google.com/search?q=4"],
+  ["파일이즈", "10,000MB 무료쿠폰", "아이디+비번 가입!", "출근시간 모바일무료!!", "https://www.google.com/search?q=5"],
+  ["파일샛", "10,000MB 무료쿠폰", "SNS(카톡,구글) 초간단 가입!", "이벤트 UP!", "https://www.google.com/search?q=6"],
+  ["파일몽", "10,000MB 무료쿠폰", "주민번호 NO!", "SNS, Email 간편가입", "https://www.google.com/search?q=7"]
 ];
 
 document.getElementById("siteList").innerHTML = sites.map((s, i) => `
